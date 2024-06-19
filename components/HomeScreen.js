@@ -3,10 +3,10 @@ import {
   View,
   Text,
   StyleSheet,
-  TextInput,
-  TouchableOpacity,
   ScrollView,
   Image,
+  TextInput,
+  TouchableOpacity,
 } from "react-native";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
@@ -202,7 +202,11 @@ function HomeScreen({ route }) {
 
   return (
     <View style={styles.container}>
-
+      <View style={styles.headline}>
+        <View style={styles.nameMailContainer}>
+          <Text style={styles.Name}>{name}</Text>
+          <Text style={styles.Address}>{email}</Text>
+        </View>
 
         <View style={styles.User}>
           <Image
