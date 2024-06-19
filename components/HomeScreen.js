@@ -488,7 +488,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  
+
   popularJobInfo: {
     display: "flex",
     flex: 1,
@@ -518,8 +518,8 @@ const styles = StyleSheet.create({
   },
 
   popularJobName: {
-    fontSize: 14,
     color: "#95969D",
+    fontSize: 14,
   },
 });
 

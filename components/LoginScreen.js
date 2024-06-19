@@ -136,6 +136,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     marginRight: 3,
   },
+  
   registerText: {
     color: "#rgba(53, 104, 153, 1)",
     fontSize: 14,
