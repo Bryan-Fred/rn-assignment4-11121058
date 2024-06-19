@@ -450,15 +450,18 @@ const styles = StyleSheet.create({
     height: 45,
     width: 76,
   },
+  
   jobInfo: {
     position: "absolute",
     left: 70,
   },
+
   jobTitle: {
     fontSize: 18,
     fontWeight: "bold",
     color: "white",
   },
+
   companyName: {
     fontSize: 14,
     color: "#555",
