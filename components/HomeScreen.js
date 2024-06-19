@@ -450,7 +450,7 @@ const styles = StyleSheet.create({
     height: 45,
     width: 76,
   },
-  
+
   jobInfo: {
     position: "absolute",
     left: 70,
@@ -480,6 +480,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
   },
+
   popularJobiconContainer: {
     backgroundColor: "white",
     borderRadius: 30,
@@ -487,6 +488,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  
   popularJobInfo: {
     display: "flex",
     flex: 1,
